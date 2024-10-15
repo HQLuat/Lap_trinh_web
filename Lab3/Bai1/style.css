@@ -1,0 +1,68 @@
+html, body {
+    font-family: sans-serif, Tahoma;
+}
+
+html, body, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+/*  For id  */
+#container {
+    width: 1200px;
+    height: 100vh;
+    margin-inline: auto;
+    border: 2px solid #ccc;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+}
+
+#menu {
+    height: 60px;
+}
+
+#menu>ul {
+    background-color: #eeeeee;
+    border-left: 5px solid darkred;
+    border-bottom: 2px solid darkred;
+}
+
+#menu ul>li {
+    display: inline-block;
+    width: fit-content;
+    list-style: none;
+    padding: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+#menu ul>li:hover,
+#menu ul.sub>li:hover {
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+
+#menu ul>li:hover ul.sub {
+    display: flex;
+}
+
+#menu ul.sub {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 201px;
+    display: none;
+    flex-direction: column;
+    border-top: 2px solid darkred;
+}
+
+#menu ul.sub>li {
+    width: 100%;
+    color: #000;
+    background-color: #eeeeee;
+    border-bottom: 2px solid #ddd;
+}
+
+/*  Class   */
