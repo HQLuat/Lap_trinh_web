@@ -1,0 +1,168 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: sans-serif, Tahoma;
+    color: black;
+}
+
+p, h3, h5 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* For id */
+
+/* section_normal_1 */
+#section_normal_1 {
+    height: 50px;
+    border-bottom: 5px solid #dadada;
+    padding: 30px;
+}
+
+#section_normal_1 .alpha {
+    width: 50%;
+    float: left;
+}
+
+#section_normal_1 .alpha img {
+    height: 38px;
+}
+
+#section_normal_1 .omega {
+    width: 50%;
+    float: right;
+}
+
+#section_normal_1 .omega .social_button {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#section_normal_1 .omega .htext_style {
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #bcbcbc;
+    font-size: 16px;
+}
+
+/* section_normal_4_2 */
+#section_normal_4_2 {
+    height: 600px;
+    background-color: #333333;
+}
+
+#section_normal_4_2 .alpha {
+    width: 600px;
+    float: left;
+    margin-top: 85px;
+}
+
+#section_normal_4_2 .alpha img {
+    height: 520px;
+}
+
+#section_normal_4_2 .omega {
+    width: 575px;
+    float: right;
+    padding-left: 25px;
+    margin-top: 85px;
+}
+
+#section_normal_4_2 .omega .editContent {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+#section_normal_4_2 .omega .normal_text {
+    margin-top: 15px;
+    color: lightgray;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#section_normal_4_2 .omega .pix_button {
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #249aba;
+    margin-top: 20px;
+}
+
+/* section_normal_6 */
+#section_normal_6 {
+    background-color: #bcbcbc;
+}
+
+#section_normal_6 .L1_style,
+#section_normal_6 .L2_style {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#section_normal_6 .L1_style .editContent {
+    font-size: 30px;
+}
+
+#section_normal_6 .container .alpha {
+    float: left;
+    background-color: #ffffff;
+}
+
+#section_normal_6 .container .alpha .b_style {
+    float: left;
+    background-color: #dadada;
+}
+
+#section_normal_6 .container .alpha .b_style img {
+    border-radius: 100%;
+}
+
+#section_normal_6 .container .alpha .txt_style {
+    float: right;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section_normal_6 .container .omega{
+    float: right;
+}
+
+/* Class */
+
+.container {
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.big_text {
+    font-size: 20px;
+}
+
+.blue_text {
+    color: #2dc0e8;
+}
+
+.bold_text {
+    font-weight: 900;
+}
+
+.big_title {
+    font-size: 46px;
+}
